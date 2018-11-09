@@ -1,0 +1,17 @@
+{
+  "name": "services/jira",
+  "authors": [
+    {
+      "name": "Artem Gunar",
+      "email": "a.gunar@kt-team.de"
+    }
+  ],
+  "require": {
+    "lesstif/php-jira-rest-client": "^1.19"
+  },
+  "autoload": {
+    "psr-0": {
+      "": "app/"
+    }
+  }
+}
